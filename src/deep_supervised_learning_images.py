@@ -313,8 +313,8 @@ class Image_Trainer:
 
 if __name__ == "__main__":
     trainer = Image_Trainer(
-        name="landscapes",
-        dataset_dir="../PyTorch_classification/landscapes",
+        name="celebFace",
+        dataset_dir="../PyTorch_classification/celebFace",
         batch_size=48)
 
     trainer.process_dataset()

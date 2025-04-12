@@ -19,6 +19,7 @@ There is also a plot shown after every model generation regarding the training s
 Few requirements:
 1) Have a NVIDIA GPU with CUDA support. If you have less than 8GB VRAM, try reducing the batch size to 32 and it should fit properly.
 2) The structure of your dataset should be like:
+    ```
     dataset/
     ├── class1/
     │   ├── img1.jpg
@@ -29,6 +30,7 @@ Few requirements:
     │   ├── img2.jpg
     │   └── ...
     └── ...
+    ```
     If your dataset has train and test folders, just merge the contents inside the class. We validate using the entire class images by doing a validation split of 0.2
 3) Make sure the name you pass to Image_Trainer is unique as it will create the models in the workspace itself.
 

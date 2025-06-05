@@ -1,7 +1,7 @@
 # deepLearning
 A repo to store simplified deep learning programs.
 
-About 'deep_supervised_learning_images":
+About `deep_supervised_learning_images`:
 This file works on the simple concept of:
 1) You have a dataset of images
 2) You want to create a model that can classify them

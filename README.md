@@ -42,7 +42,7 @@ Few requirements:
 
 #### CelebFace dataset
 ![CelebFace Training Metrics](training_details/celebFace_training_metrics.png)
-[CelebFace Prediction](training_details/celebFace_predictions.png)
+![CelebFace Prediction](training_details/celebFace_predictions.png)
 
 #### Landscapes dataset
 ![Landscapes Training Metrics](training_details/landscapes_training_metrics.png)

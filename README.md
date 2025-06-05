@@ -7,7 +7,7 @@ This file works on the simple concept of:
 2) You want to create a model that can classify them
 
 All possible within 8GB of VRAM.
-
+#
 I have tried to find a lot of code bases that are working and also accurate. I managed to found a lot of code bases which are using MNIST (greyscale images), so when you feed RGB images, it won't work or you need to change a lot of things. This code can handle RGBs and it works on a variety of datasets, I have tested with celeb_face, animals, cars, places, etc. and all seems to be working fine within 8GB of VRAM (the code uses 6.9 GB).
 
 I have tested with resnet18, resnet50 and convnext_tiny, and found that with my datasets, resnet50 performed the best. It took less time and was accurate too.
@@ -34,4 +34,17 @@ Few requirements:
     If your dataset has train and test folders, just merge the contents inside the class. We validate using the entire class images by doing a validation split of 0.2
 3) Make sure the name you pass to Image_Trainer is unique as it will create the models in the workspace itself.
 
-Enjoy.
+#
+### Some training metrics and predictions
+#### Cars dataset
+![Cars Training Metrics](training_details/cars_training_metrics.png)
+![Cars Prediction](training_details/cars_predictions.png)
+
+#### CelebFace dataset
+![CelebFace Training Metrics](training_details/celebFace_training_metrics.png)
+[CelebFace Prediction](training_details/celebFace_predictions.png)
+
+#### Landscapes dataset
+![Landscapes Training Metrics](training_details/landscapes_training_metrics.png)
+![Landscapes Prediction](training_details/landscapes_predictions.png)
+
